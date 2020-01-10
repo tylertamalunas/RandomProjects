@@ -13,6 +13,8 @@ computer_options = ['rock', 'paper', 'scissors']
 print("Let's play rock, paper, scissors! See if you can beat me.")
 print("We'll play until you type 'done'.")
 playing = True
+# need to add a way to track wins/losses of both computer and user
+
 while playing is True:
     computer_shoot = choice(computer_options)
     user_shoot = input("Your choice: ").lower()
@@ -54,3 +56,4 @@ while playing is True:
         break
     else:
         print("You need to pick rock, paper, or scissors...")
+
