@@ -50,7 +50,7 @@ class Dice:
             rolls.append(random.randint(1, dice_sides))
         return rolls
 
-    def d20(self):  # Should this just be for one dice or also include 2+?
+    def d20(self):  
         roll_number = 1
         rolls = []
         while roll_number <= number_of_dice:
